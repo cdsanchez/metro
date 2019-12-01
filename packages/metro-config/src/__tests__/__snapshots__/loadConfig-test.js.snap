@@ -126,6 +126,7 @@ Object {
   "visualizer": Object {
     "presets": Array [],
   },
+  "watch": true,
   "watchFolders": Array [
     "/",
   ],
@@ -258,6 +259,7 @@ Object {
   "visualizer": Object {
     "presets": Array [],
   },
+  "watch": true,
   "watchFolders": Array [
     "/",
   ],

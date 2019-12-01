@@ -74,6 +74,7 @@ async function convertOldToNew({
     transformVariants,
     processModuleFilter,
     virtualMapper,
+    watch,
   } = config;
 
   const defaultConfig = await getDefaultConfig(getProjectRoot());
@@ -155,6 +156,7 @@ async function convertOldToNew({
     watchFolders,
     transformerPath: defaultConfig.transformerPath,
     resetCache,
+    watch,
     maxWorkers,
     visualizer: {presets: []},
   };

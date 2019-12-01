@@ -99,6 +99,7 @@ export type OldConfigT = {
   resolveRequest: ?CustomResolver,
   transformVariants: () => TransformVariants,
   virtualMapper: (file: string) => Array<string>,
+  watch: ?boolean,
 };
 
 type ResolverConfigT = {|
@@ -162,6 +163,7 @@ type MetalConfigT = {|
   reporter: Reporter,
   resetCache: boolean,
   watchFolders: $ReadOnlyArray<string>,
+  watch: boolean,
 |};
 
 type ServerConfigT = {|
